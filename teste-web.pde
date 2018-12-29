@@ -95,7 +95,7 @@ void setup() {
 
 void draw(){
 	fill(128);
-	ellipse(mousex, mouseY, 30, 30);
+	ellipse(mouseX, mouseY, 30, 30);
 }
 
 void drawMark(int xM, int yM, int gols_1, int gols_2, int sizeM, int orientM){		
