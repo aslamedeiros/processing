@@ -11,11 +11,6 @@ About Us
 * Github Repo:       http://github.com/jeresig/processing-js
 * Bug Tracker:       http://processing-js.lighthouseapp.com
 
-Contributing and/or Participating Organizations
------------------------------------------------
-* The Processing Project and Community:  http://processing.org
-* The Mozilla Foundation:                https://www.mozilla.org/foundation/
-* Seneca College (CDOT):                 http://zenit.senecac.on.ca/wiki/
 
 Setting up a Simple Sketch
 --------------------------
