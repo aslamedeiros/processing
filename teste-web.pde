@@ -92,6 +92,12 @@ void setup() {
 	}
 
 }
+
+void draw(){
+	fill(128);
+	ellipse(mousex, mouseY, 30, 30);
+}
+
 void drawMark(int xM, int yM, int gols_1, int gols_2, int sizeM, int orientM){		
 	// desenha a marca com orientacao orientM
 	int Ox, Oy;
@@ -139,10 +145,7 @@ void drawMark(int xM, int yM, int gols_1, int gols_2, int sizeM, int orientM){
 		ellipse(xM-Ox*(sizeM+1)+abs(Oy)*sizeM, yM-Oy*(sizeM+1)+abs(Ox)*sizeM, sizeM, sizeM);
 	}
 }
-void draw(){
-	fill(128);
-	ellipse(mousex, mouseY, 30, 30);
-}
+
 void drawMarkBar(int xM, int yM, int gols_1, int gols_2, int sizeM, int orientM){		
 	// desenha a marca com orientacao orientM
 	int Ox, Oy;
